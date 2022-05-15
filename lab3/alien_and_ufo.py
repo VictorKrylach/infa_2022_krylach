@@ -37,15 +37,63 @@ ellipse(screen, CLOUD_COLOR_ONE, (290, 310, 750, 115))
 ellipse(screen, CLOUD_COLOR_TWO, (200, 390, 710, 100))
 #draw UFO
 #surface_light = polygon(screen, UFO_LIGHTS_COLOR, ((215, 420), (10, 760), (360, 763)), pygame.SRCALPHA)
-polygon(screen, (233, 233, 233, 0.1), ((215, 420), (10, 760), (360, 763)))
+polygon(screen, UFO_LIGHTS_COLOR, ((215, 420), (10, 760), (360, 763)))
 
 ellipse(screen, UFO_COLOR_ONE, (5, 400, 400, 120))
 ellipse(screen, UFO_COLOR_TWO, (50, 390, 310, 90))
+ellipse(screen, UFO_LIGHTS_COLOR, (20, 450, 33, 17))
+ellipse(screen, UFO_LIGHTS_COLOR, (80, 478, 33, 17))
+ellipse(screen, UFO_LIGHTS_COLOR, (150, 491, 33, 17))
+ellipse(screen, UFO_LIGHTS_COLOR, (230, 491, 33, 17))
+ellipse(screen, UFO_LIGHTS_COLOR, (300, 478, 33, 17))
+ellipse(screen, UFO_LIGHTS_COLOR, (355, 450, 33, 17))
 #draw alien
+#right_foot
 circle(screen, ALIEN_COLOR, (555, 900), 10)
+ellipse(screen, ALIEN_COLOR, (535, 860, 15, 40))
+ellipse(screen, ALIEN_COLOR, (528, 835, 20, 30))
+#torso
+ellipse(screen, ALIEN_COLOR, (500, 765, 40, 90))
+#left_foot
+circle(screen, ALIEN_COLOR, (480, 885), 10)
+ellipse(screen, ALIEN_COLOR, (485, 845, 15, 40))
+ellipse(screen, ALIEN_COLOR, (492, 825, 20, 30))
+#right_hand
+circle(screen, ALIEN_COLOR, (545, 783), 10)
+ellipse(screen, ALIEN_COLOR, (545, 783, 22, 15))
+ellipse(screen, ALIEN_COLOR, (568, 790, 25, 13))
+#left_hand
+circle(screen, ALIEN_COLOR, (501, 780), 10)
+ellipse(screen, ALIEN_COLOR, (482, 785, 18, 13))
+ellipse(screen, ALIEN_COLOR, (475, 800, 10, 15))
+#apple
+
+#face
+aalines(screen, ALIEN_COLOR, closed, (501, 780, 601, 800,
+									551, 900, 501, 780), blend=1)
+#eyes
 
 
-circle(screen, ALIEN_COLOR, (645, 920), 10)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#circle(screen, ALIEN_COLOR, (645, 920), 10)
 
 
 
