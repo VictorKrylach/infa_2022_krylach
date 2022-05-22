@@ -69,8 +69,8 @@ ellipse(screen, ALIEN_COLOR, (475, 800, 10, 15))
 #apple
 
 #face
-aalines(screen, ALIEN_COLOR, closed, (501, 780, 601, 800,
-									551, 900, 501, 780), blend=1)
+#aalines(screen, ALIEN_COLOR, closed, (501, 780, 601, 800,
+									#551, 900, 501, 780), blend=1)
 #eyes
 
 
